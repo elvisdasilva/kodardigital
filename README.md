@@ -21,7 +21,7 @@
 
 ## 💻 Sobre o projeto
 
-Kodar Digital é uma agência de desenvolvimento de websites, projeto desenvolvido no Figma por Elvis da Silva.
+Kodar Digital é uma agência de desenvolvimento de websites, o projeto foi desenvolvido no Figma por Elvis da Silva e possui responsividade para se adaptar em dispositivos móveis.
 
 ---
 
