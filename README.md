@@ -8,7 +8,7 @@
   Kodar Digital
 </h1>
 <h1 align="center">
-<img alt="Logo do Projeto" title="#Logo-do-projeto" src="./assets/img/kodardigitallogoweb.png" width="100p"/>
+<img alt="Logo do Projeto" title="#Logo-do-projeto" src="./assets/img/kodardigitallogoweb.png" width="200p"/>
 </h1>
 
 <p align="center">
@@ -38,7 +38,7 @@ O layout da aplicação está disponível abaixo:
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Preview do projeto" title="#Logo-do-projeto" src="mobile-preview.png" width="20%" class="bg">
-  
+
 ---
 
 ## 🚀 Tecnologias
