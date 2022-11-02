@@ -1,0 +1,24 @@
+/*
+    Website: Kodar Digital - Agência de Criação de Sites
+    Author: Elvis da Silva
+    Author URL: https://github.com/elvisdasilva
+    Date: 01/01/2022
+*/
+
+$cor-primaria: #16213E;
+$cor-primaria-hover: #192341;
+$cor-secundaria: #E94560;
+$cor-secundaria-hover: #ec566f;
+$white-color: #FFF;
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    color: $white-color;
+}

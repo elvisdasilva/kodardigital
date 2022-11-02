@@ -1,0 +1,88 @@
+.main {
+    .contato-form {
+        align-items: center;
+        background: $cor-secundaria;
+        color: $white-color;
+        display: flex;
+        flex-direction: column;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 680px;
+        width: 100%;
+
+        .contato-form-titulo {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .contato-formulario {
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+
+            .contato-formulario-texto,
+            .contato-formulario-campo {
+                margin-bottom: 10px;
+            }
+
+            .contato-formulario-campo {
+                border: none;
+                border-radius: 5px;
+                height: 35px;
+                width: 355px;
+            }
+
+            .contato-formulario-mesagem {
+                border: none;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            .info-box-btn {
+                background: $cor-primaria;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: bold;
+                height: 50px;
+                transition: all .3ms;
+                width: 195px;
+
+                &:hover {
+                    background: $cor-primaria-hover;
+                }
+
+                .info-box-btn-a {
+                    color: $white-color;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 1276px) {
+        .contato-form {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+
+            .contato-form-titulo {
+                text-align: left;
+                padding: 0 10px;
+                width: 580px;
+            }
+
+            .contato-formulario {
+                padding: 10px;
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+}

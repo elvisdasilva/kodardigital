@@ -1,0 +1,54 @@
+.main {
+    .info {
+        align-items: center;
+        background: $cor-primaria;
+        display: flex;
+        justify-content: center;
+        height: 270px;
+        width: 100%;
+
+        .info-box {
+            align-items: center;
+            color: $white-color;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            flex-direction: column;
+            padding: 20px;
+
+            .info-box-titulo {
+                font-size: 2.5rem;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 10px;
+                width: 350px;
+            }
+
+            .info-box-paragrafo {
+                font-size: 1.3rem;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .info-box-btn {
+                background: $cor-secundaria;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: bold;
+                height: 50px;
+                width: 195px;
+                transition: all .3ms;
+
+                &:hover {
+                    background: $cor-secundaria-hover;
+                }
+
+                .info-box-btn-a {
+                    color: $white-color;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+            }
+        }
+    }
+}

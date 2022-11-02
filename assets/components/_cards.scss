@@ -1,0 +1,79 @@
+.main{
+    .cards{
+        align-items: center;
+        color: $cor-primaria;
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        flex-direction: column;
+        height: 1000px;
+        margin-bottom: 20px;
+        width: 100%;
+        .cards-titulo{
+            font-size: 40px;
+            font-weight: bold;
+            position: relative;
+            text-align: center;
+            &::after{
+                content: "";
+                background: $cor-primaria;
+                display: block;
+                height: 5px;
+                position: absolute;
+                width: 150px;
+            }
+        }
+        .cards-lista{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            
+            .cards-item{
+                align-items: center;
+                background: $cor-primaria;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                height: 195px;
+                margin: 20px;
+                width: 275px;
+                &:hover{
+                    .cards-icone{
+                        filter: blur(6px);
+                        transition: ease-in-out .5ms;
+                    }
+                    .cards-text{
+                        display: block;
+                        position: absolute;
+                        z-index: 1;
+                    }
+
+                }
+                .cards-icone{
+                    width: 84px;
+                }
+                .cards-text{
+                    color: $white-color;
+                    display: none;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+     
+    }
+    @media screen and (min-width: 768px) {
+        .cards{
+            height: 500px;
+            width: 100%;
+            .cards-lista{
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}
