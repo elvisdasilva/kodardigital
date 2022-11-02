@@ -52,6 +52,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS3](https://www.w3schools.com/css/default.asp)
 - [FIGMA](https://www.figma.com/)
 - [VSCODE](https://code.visualstudio.com/)
+- [BOXICONS](https://boxicons.com/)
+- [AOS - Animate on scroll library](https://michalsnik.github.io/aos/)
 
 
 ## 🚧 Projeto
