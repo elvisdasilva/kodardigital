@@ -34,6 +34,10 @@ O layout da aplicação está disponível abaixo:
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Preview do projeto" title="#Logo-do-projeto" src="desktop-preview.png" width="100%" class="bg">
 
+### Mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Preview do projeto" title="#Logo-do-projeto" src="mobile-preview.png" width="100%" class="bg">
 ---
 
 ## 🚀 Tecnologias
